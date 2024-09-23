@@ -1,0 +1,43 @@
+input[type="button"]
+{ 
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem; /* Use relative units */
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.calculator-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Limit the width for larger screens */
+    padding: 10px;
+    background-color: white;
+}
+
+table {
+    margin-bottom: 20px;
+    width: 100%; /* Make the table take up full width */
+    
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 15px;
+    font-size: 1.5rem; /* Relative font size */
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
